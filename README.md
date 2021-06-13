@@ -31,18 +31,18 @@ Building this may take a while due to the dependencies and modules to be downloa
  1. Clone this repositiory.
  2. Install the missing dependencies.
  3. Open two terminals.
- 4. One terminal for: `'cd app-name/server'`
- 5. One terminal for: `'cd app-name/client'`
+ 4. One terminal for: `cd app-name/server`
+ 5. One terminal for: `cd app-name/client`
 
 ## Building Server
 **You will do this after changing directory to server.**
 Install the missing dependencies starting from nodejs itself. To know which dependencies to install, you look it up to **package.json** file inside the server.
 Inside the terminal with the server as its directory, do the following:
- 1. `'npm init -y'`
+ 1. `npm init -y`
 >Do the remaining dependencies, look it up in said file.
 
 **NOTE**
-Our server also has **.env** file which contains the `'PORT'` and the database configuration `'ATLAS_URI'`.
+Our server also has **.env** file which contains the `PORT` and the database configuration `ATLAS_URI`.
 1. Make a file in root directory: **.env**
 2. Enter the `PORT` and `ATLAST_URI`
  You can follow the given example:
@@ -55,7 +55,7 @@ If you do not know what is your atlas uri, you can follow the documentation in  
 **You will do this after changing directory to client.**
 Install the missing dependencies starting from nodejs itself. To know which dependencies to install, you look it up to **package.json** file inside the server.
 Inside the terminal with the server as its directory, do the following:
- 1. `'npx create-react-app .'`
+ 1. `npx create-react-app .`
 >Do the remaining dependencies, look it up in said file.
  
 
@@ -64,14 +64,14 @@ Inside the terminal with the server as its directory, do the following:
 After everything is set up, for server-side application and the client-side application. Running it is pretty easy.
 
  1. Server
- >If you are using nodemon and already set it up you can use `'npm '` + your the keyword you used. For our set-up we used: `'npm start'`.
+ >If you are using nodemon and already set it up you can use `npm ` + your the keyword you used. For our set-up we used: `npm start`.
  2. Client
- >The default way to start a react app is through `'npm start`'
+ >The default way to start a react app is through `npm start`
 
 When the server is running, you can see your terminal log if it is really running. As for the client, it will also log it in its terminal including the port being used. The client will also open a tab with port given from the logs. If it does not open and it is already running, you can do it manually:
 
  1. Open a browser
- 2. Enter `'localhost:3000'`
+ 2. Enter `localhost:3000`
  3. Done!
 
 # Congratulations!
